@@ -71,52 +71,59 @@ Edit images directly in your browser with filters, transformations, drawing tool
 
 ## 🛠️ Tech Stack
 
-- Streamlit  
-- OpenCV  
-- NumPy  
-- Pillow  
+- **[Streamlit](https://streamlit.io/)**: For creating the interactive web application interface.
+- **[OpenCV](https://opencv.org/)**: For all core image processing and manipulation tasks.
+- **[Pillow (PIL)](https://python-pillow.org/)**: Used for image handling between different libraries and formats.
+- **[NumPy](https://numpy.org/)**: For numerical operations and handling image arrays.
+- **[streamlit-cropper](https://pypi.org/project/streamlit-cropper/)**: A Streamlit component for the interactive image cropping functionality.
+- **[streamlit-image-coordinates](https://pypi.org/project/streamlit-image-coordinates/)**: A Streamlit component to capture click coordinates on images for drawing and text placement.
+
 
 ---
 
-## 📦 Installation
+### Installation
 
-### Clone repository
-git clone https://github.com/rizwanhussain01/pixelcraft-photo-editor.git
-cd pixelcraft-photo-editor
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/rizwanhussain01/pixelcraft-photo-editor.git
+    cd pixelcraft-photo-editor
+    ```
 
-### Install dependencies
-pip install -r requirements.txt
+2.  **Install the dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-### Run
-streamlit run app.py
-
----
+3.  **Run the application:**
+    ```sh
+    streamlit run app.py
+    ```
+    Your web browser will open with the PixelCraft application running.
 
 ## 📁 Project Structure
 
+```
 pixelcraft-photo-editor/
 │
-├── app.py
-├── filters.py
-├── adjustments.py
-├── transform.py
-├── draw.py
-├── utils.py
-├── assets/
-├── requirements.txt
-├── README.md
-└── .gitignore
-
----
+├── app.py             # Main Streamlit application file, handles UI and state management
+├── adjustments.py     # Functions for brightness and contrast adjustments
+├── draw.py            # Functions for drawing shapes and text on the image
+├── filters.py         # Functions for color filters and blur effects
+├── transform.py       # Functions for resizing, rotating, and flipping
+├── utils.py           # Utility functions (e.g., color conversion)
+├── requirements.txt   # Project dependencies
+├── assets/            # Directory for storing static assets like images and demos
+└── README.md          # This file
+```
 
 ## 👨‍💻 Author
 
 Made with ❤️ using Streamlit & OpenCV  
-Rizwan Hussain
+**Rizwan Hussain**
 
 GitHub: https://github.com/rizwanhussain01
 ---
 
 ## 📜 License
 
-MIT License
+This project is licensed under the MIT License. See the LICENSE file for details.
