@@ -222,7 +222,7 @@ if file is not None:
     with col1:
         st.header("Original Image")
         with st.container(border=True):
-            st.image(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), width="content")
+            st.image(cv2.cvtColor(image, cv2.COLOR_BGR2RGB),use_column_width=True)
         st.caption("Tip: Use tools from sidebar to edit the image")
 
 
@@ -231,7 +231,7 @@ if file is not None:
         h,w = edited_image.shape[:2]
         orig_h, orig_w = image.shape[:2]
         with st.container(border=True):
-            st.image(cv2.cvtColor(edited_image, cv2.COLOR_BGR2RGB), width="content")
+            st.image(cv2.cvtColor(edited_image, cv2.COLOR_BGR2RGB),use_column_width=True)
         percent_w = (w/orig_w)*100
         percent_h = (h/orig_h)*100
         c1,c2 = st.columns(2)
