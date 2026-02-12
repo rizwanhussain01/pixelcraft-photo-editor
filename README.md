@@ -14,7 +14,7 @@ Edit images directly in your browser with filters, transformations, drawing tool
 
 ## 🎥 Demo
 
-▶️ **Watch Demo Video:** [assets/demo.mp4](assets/demo.mp4)
+▶️ **Watch Demo Video:** [assets/demo.gif](assets/demo.gif)
 
 ---
 
