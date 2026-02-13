@@ -14,17 +14,21 @@ Edit images directly in your browser with filters, transformations, drawing tool
 
 ## 🎥 Demo
 
-▶️ **Watch Demo Video:** [assets/demo.gif](assets/demo.gif)
+▶️ **Watch Demo Video:**  ![Demo](assets/demo.gif)
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](assets/home.png)
+![Home](assets/home.gif)
+
 
 ---
+## 🚀 Live App
+[![Open PixelCraft](https://img.shields.io/badge/Launch-App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://pixelcraft-photo-editor.streamlit.app/)
 
+---
 ## ✨ Features
 
 ### 🎨 Filters
